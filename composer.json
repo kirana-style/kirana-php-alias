@@ -1,0 +1,21 @@
+{
+    "name": "kirana/kirana",
+    "description": "Kirana for server templates, under its other name: installs kirana-style/kirana.",
+    "type": "metapackage",
+    "license": "MIT",
+    "homepage": "https://kirana.style",
+    "keywords": ["kirana", "css", "laravel", "symfony", "blade", "twig"],
+    "authors": [
+        {
+            "name": "The Kirana authors",
+            "homepage": "https://kirana.style"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/kirana-style/kirana/issues",
+        "source": "https://github.com/kirana-style/kirana-php"
+    },
+    "require": {
+        "kirana-style/kirana": "self.version"
+    }
+}
